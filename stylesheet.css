@@ -1,0 +1,82 @@
+/*
+Assignment: Final Website
+Author: Ben Ward
+Date: 12/04/2016
+Filename: index.html
+Description: Stylesheet for the website.
+*/
+
+body {
+	background-color: #090708;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Source Serif Pro', serif;
+}
+
+ol {
+	font-family: 'Source Serif Pro', serif;
+}
+
+#text {
+	background-color: #b94703;
+	padding: 1em;
+	border-radius: 1em;
+	width: 75%;
+	float: left;
+}
+
+.ss {
+	padding-left: 10%;
+}
+
+
+nav ul li a:link {
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:visited {
+    color: white;
+}
+
+
+nav ul li a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+}
+
+
+nav ul li {
+	font-size: large;
+	font-family: monospace;
+	display: inline;
+	padding-right: 5%;
+	font-variant: small-caps;
+	background-color: #4c1203;
+}
+
+
+#index-page * li.index-link, #about-page * li.about-link, #ui-page * li.ui-link, #combat-page * li.combat-link, #equipment-page * li.equipment-link, #tips-page * li.tips-link{
+	background-image: url('images/fire.gif');
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 16px;
+}
+
+footer {
+	border-top: 4px solid #b94703;
+	font-size: small;
+	font-family: monospace;
+	margin-top: 2em;
+	color: white;
+}
+
+.clearfloat {
+	clear: both;
+}
+	
